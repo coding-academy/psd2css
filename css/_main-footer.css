@@ -1,0 +1,13 @@
+
+.main-footer {
+  background-color: var(--sections-bg);
+  height: 97px;
+  color: #000;
+  font-size: .8em;
+  font-weight: bold;
+}
+
+
+.main-footer li:not(:last-child) {
+    margin-right: 20px;
+}

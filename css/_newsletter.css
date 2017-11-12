@@ -1,0 +1,24 @@
+.newsletter {
+  --submit-btn-image-width: 32px;
+  background-color: var(--sections-bg);
+  height: 290px;
+}
+
+.newsletter-email {
+  margin-top: 65px;
+  position: relative;
+}
+
+.newsletter__submit-btn {
+  background-image: url('../assets/send-icon.png');
+  width: var(--submit-btn-image-width);
+  height: 17px;
+  cursor: pointer;
+  position: absolute;
+  top: 8px;
+  right: 0;
+}
+
+.newsletter__email-input {
+  padding-right: calc(var(--submit-btn-image-width) + 5);
+}
